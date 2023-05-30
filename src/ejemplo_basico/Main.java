@@ -2,6 +2,10 @@ package ejemplo_basico;
 
 /**
  * Clase principal que demuestra el uso BASICO del patrón Bridge.
+ * @author Carlos Mijail Mamani Anccasi
+ * @email cmamania@ulasalle.edu.pe
+ * @version 2.0
+ * @since 2023-05-29
  */
 public class Main {
     /**

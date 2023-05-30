@@ -2,6 +2,10 @@ package ejemplo_basico;
 
 /**
  * Esta es una subclase de Forma que representa un Circulo con radio y utiliza Color.
+ * @author Carlos Mijail Mamani Anccasi
+ * @email cmamania@ulasalle.edu.pe
+ * @version 2.0
+ * @since 2023-05-29
  */
 public class Circulo extends Forma {
     private int radio;
@@ -10,7 +14,7 @@ public class Circulo extends Forma {
      * Constructor de la clase Circulo.
      *
      * @param color El color a utilizar.
-     * @param radio El radio del círculo.
+     * @param radio El radio entero del círculo.
      */
     public Circulo(Color color, int radio) {
         super(color);
