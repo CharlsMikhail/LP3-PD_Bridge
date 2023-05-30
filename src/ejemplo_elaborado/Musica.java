@@ -34,7 +34,7 @@ public class Musica implements Medio {
      */
     @Override
     public void reproducir() {
-        System.out.println("Reproduciendo msica: " + titulo + " - " + artista);
+        System.out.println("Reproduciendo musica: " + titulo + " - " + artista);
     }
 
     /**
@@ -43,6 +43,6 @@ public class Musica implements Medio {
      */
     @Override
     public void detener() {
-        System.out.println("Deteniendo msica");
+        System.out.println("Deteniendo musica");
     }
 }
