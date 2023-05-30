@@ -5,8 +5,7 @@ package ejemplo_elaborado;
  * La clase Televisor representa un dispositivo de televisor que puede reproducir medios.
  * Implementa la interfaz Dispositivo y proporciona implementaciones para los metodos definidos en dicha interfaz.
  * 
- * @author Carlos Mijail Mamani Anccasi
- * @email cmamania@ulasalle.edu.pe
+ * @author Carlos Mijail Mamani Anccasi [cmamania@ulasalle.edu.pe].
  * @version 1.0
  * @since 2023-05-30
  */

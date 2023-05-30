@@ -2,8 +2,8 @@ package ejemplo_basico;
 
 /**
  * Esta es una subclase de Forma que representa un Rectangulo y utiliza Color.
- * @author Carlos Mijail Mamani Anccasi
- * @email cmamania@ulasalle.edu.pe
+ * 
+ * @author Carlos Mijail Mamani Anccasi [cmamania@ulasalle.edu.pe].
  * @version 2.0
  * @since 2023-05-29
  */

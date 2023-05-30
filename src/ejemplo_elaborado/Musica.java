@@ -7,8 +7,7 @@ package ejemplo_elaborado;
  * 
  * Esta implementacion especifica de Medio se enfoca en la reproduccion de msica, y tiene propiedades como titulo y artista.
  * 
- * @author Carlos Mijail Mamani Anccasi
- * @email cmamania@ulasalle.edu.pe
+ * @author Carlos Mijail Mamani Anccasi [cmamania@ulasalle.edu.pe].
  * @version 1.0
  * @since 2023-05-30
  */

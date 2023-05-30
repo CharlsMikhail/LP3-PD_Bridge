@@ -4,8 +4,7 @@ package ejemplo_elaborado;
  * Esta es la interfaz que define la interfaz para los diferentes tipos de medios(Implementaciones).
  * Implementar esta interfaz permite reproducir y detener un medio.
  * 
- * @author Carlos Mijail Mamani Anccasi
- * @email cmamania@ulasalle.edu.pe
+ * @author Carlos Mijail Mamani Anccasi [cmamania@ulasalle.edu.pe].
  * @version 1.0
  * @since 2023-05-30
  */

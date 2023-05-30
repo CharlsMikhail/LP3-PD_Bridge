@@ -8,8 +8,7 @@ package ejemplo_elaborado;
  * 
  * Esta clase principal es utilizada para mostrar un ejemplo funcional del patron Bridge.
  * 
- * @author Carlos Mijail Mamani Anccasi
- * @email cmamania@ulasalle.edu.pe
+ * @author Carlos Mijail Mamani Anccasi [cmamania@ulasalle.edu.pe].
  * @version 1.0
  * @since 2023-05-30
  */

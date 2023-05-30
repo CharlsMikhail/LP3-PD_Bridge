@@ -4,8 +4,7 @@ package ejemplo_elaborado;
  * Esta es la interfaz que define la interfaz para los diferentes tipos de dispositivos(Abstracciones).
  * Implementar esta interfaz permite a los dispositivos conectarse, desconectarse, reproducir medios y detener la reproduccion.
  * 
- * @author Carlos Mijail Mamani Anccasi
- * @email cmamania@ulasalle.edu.pe
+ * @author Carlos Mijail Mamani Anccasi [cmamania@ulasalle.edu.pe].
  * @version 1.0
  * @since 2023-05-30
  */
