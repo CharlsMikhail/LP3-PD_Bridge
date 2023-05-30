@@ -8,15 +8,19 @@ package ejemplo_basico;
  * @since 2023-05-29
  */
 public abstract class Forma {
+	
+	/**
+	 * Instacia de Color (Este es el Bridge o Puente)
+	 */
     protected Color color;
 
     /**
      * Constructor de la clase Forma.
      *
-     * @param color El color a utilizar.
+     * @param _color El color a utilizar.
      */
-    public Forma(Color color) {
-        this.color = color;
+    public Forma(Color _color) {
+        this.color = _color;
     }
 
     /**

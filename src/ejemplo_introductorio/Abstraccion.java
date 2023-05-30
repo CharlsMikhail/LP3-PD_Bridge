@@ -8,15 +8,19 @@ package ejemplo_introductorio;
  * @since 2023-05-29
  */
 public abstract class Abstraccion {
+	
+	/**
+	 * Instacia de Implementacion (Este es el Bridge o Puente)
+	 */
     protected Implementacion implementacion;
 
     /**
      * Constructor de la clase Abstraccion.
      *
-     * @param implementacion La implementacion a utilizar.
+     * @param _implementacion La implementacion a utilizar.
      */
-    public Abstraccion(Implementacion implementacion) {
-        this.implementacion = implementacion;
+    public Abstraccion(Implementacion _implementacion) {
+        this.implementacion = _implementacion;
     }
 
     /**
