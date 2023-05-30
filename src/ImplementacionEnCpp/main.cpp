@@ -1,3 +1,10 @@
+ * Informacion: Esta es otra implementacion en CPP de Dispositivo/Medio usando el P.D. "BRIDGE"
+ * 
+ * Author Carlos Mijail Mamani Anccasi [cmamania@ulasalle.edu.pe].
+ * Version: 1.0
+ * Fecha: 2023-05-30
+
+
 #include <iostream>
 
 using namespace std;
