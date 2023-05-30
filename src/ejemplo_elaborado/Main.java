@@ -1,12 +1,12 @@
 package ejemplo_elaborado;
 
 /**
- * Clase principal que demuestra el uso del patrón Bridge.
- * La clase Main contiene el método main, que es el punto de entrada de la aplicación.
- * En este método se crea una instancia de cada medio (Musica y Pelicula) y de cada dispositivo (Televisor y Altavoz),
+ * Clase principal que demuestra el uso del patron Bridge.
+ * La clase Main contiene el metodo main, que es el punto de entrada de la aplicacion.
+ * En este metodo se crea una instancia de cada medio (Musica y Pelicula) y de cada dispositivo (Televisor y Altavoz),
  * y se realizan acciones como conectar, reproducir y detener en los dispositivos utilizando los diferentes medios.
  * 
- * Esta clase principal es utilizada para mostrar un ejemplo funcional del patrón Bridge.
+ * Esta clase principal es utilizada para mostrar un ejemplo funcional del patron Bridge.
  * 
  * @author Carlos Mijail Mamani Anccasi
  * @email cmamania@ulasalle.edu.pe
@@ -15,17 +15,17 @@ package ejemplo_elaborado;
  */
 public class Main {
     /**
-     * Método principal de la aplicación.
-     * Este método es el punto de entrada de la aplicación y demuestra el uso del patrón Bridge.
+     * Metodo principal de la aplicacion.
+     * Este metodo es el punto de entrada de la aplicacion y demuestra el uso del patron Bridge.
      * Se crean instancias de los medios (Musica y Pelicula) y los dispositivos (Televisor y Altavoz),
      * y se realizan acciones como conectar, reproducir y detener en los dispositivos utilizando los diferentes medios.
      * 
-     * @param args Los argumentos de línea de comandos (no se utilizan en este caso).
+     * @param args Los argumentos de linea de comandos (no se utilizan en este caso).
      */
     public static void main(String[] args) {
         // Crear los medios
-        Medio musica = new Musica("Canción de ejemplo", "Artista de ejemplo");
-        Medio pelicula = new Pelicula("Película de ejemplo", "Director de ejemplo");
+        Medio musica = new Musica("Cancion de ejemplo", "Artista de ejemplo");
+        Medio pelicula = new Pelicula("Pelicula de ejemplo", "Director de ejemplo");
 
         // Crear los dispositivos
         Dispositivo televisor = new Televisor();

@@ -1,7 +1,7 @@
 package ejemplo_basico;
 
 /**
- * Clase principal que demuestra el uso BASICO del patrón Bridge.
+ * Clase principal que demuestra el uso BASICO del patron Bridge.
  * @author Carlos Mijail Mamani Anccasi
  * @email cmamania@ulasalle.edu.pe
  * @version 2.0
@@ -11,7 +11,7 @@ public class Main {
     /**
      * Punto de entrada principal del programa.
      *
-     * @param args Los argumentos de línea de comandos.
+     * @param args Los argumentos de linea de comandos.
      */
     public static void main(String[] args) {
     	

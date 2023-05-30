@@ -1,9 +1,9 @@
 package ejemplo_elaborado;
 
 /**
- * Esta es otra implementación concreta de Dispositivo: Altavoz.
+ * Esta es otra implementacion concreta de Dispositivo: Altavoz.
  * La clase Altavoz representa un dispositivo de altavoz que puede reproducir medios.
- * Implementa la interfaz Dispositivo y proporciona implementaciones para los métodos definidos en dicha interfaz.
+ * Implementa la interfaz Dispositivo y proporciona implementaciones para los metodos definidos en dicha interfaz.
  * 
  * @author Carlos Mijail Mamani Anccasi
  * @email cmamania@ulasalle.edu.pe
@@ -13,8 +13,8 @@ package ejemplo_elaborado;
 public class Altavoz implements Dispositivo {
     
     /**
-     * Método utilizado para establecer una conexión con el altavoz.
-     * La implementación de este método imprime un mensaje indicando que se está conectando el altavoz.
+     * Metodo utilizado para establecer una conexion con el altavoz.
+     * La implementacion de este metodo imprime un mensaje indicando que se esta conectando el altavoz.
      */
     @Override
     public void conectar() {
@@ -22,8 +22,8 @@ public class Altavoz implements Dispositivo {
     }
 
     /**
-     * Método utilizado para desconectar el altavoz.
-     * La implementación de este método imprime un mensaje indicando que se está desconectando el altavoz.
+     * Metodo utilizado para desconectar el altavoz.
+     * La implementacion de este metodo imprime un mensaje indicando que se esta desconectando el altavoz.
      */
     @Override
     public void desconectar() {
@@ -31,12 +31,12 @@ public class Altavoz implements Dispositivo {
     }
 
     /**
-     * Método utilizado para reproducir un medio en el altavoz.
-     * La implementación de este método imprime un mensaje indicando que se está reproduciendo el medio en el altavoz,
-     * y luego invoca al método reproducir() del medio recibido como parámetro.
+     * Metodo utilizado para reproducir un medio en el altavoz.
+     * La implementacion de este metodo imprime un mensaje indicando que se esta reproduciendo el medio en el altavoz,
+     * y luego invoca al metodo reproducir() del medio recibido como parametro.
      * 
      * @param medio El medio a reproducir en el altavoz.
-     *              Debe ser una instancia válida de la clase que implementa la interfaz `Medio`.
+     *              Debe ser una instancia valida de la clase que implementa la interfaz `Medio`.
      */
     @Override
     public void reproducirMedio(Medio medio) {
@@ -45,11 +45,11 @@ public class Altavoz implements Dispositivo {
     }
 
     /**
-     * Método utilizado para detener la reproducción actual en el altavoz.
-     * La implementación de este método imprime un mensaje indicando que se está deteniendo la reproducción en el altavoz.
+     * Metodo utilizado para detener la reproduccion actual en el altavoz.
+     * La implementacion de este metodo imprime un mensaje indicando que se esta deteniendo la reproduccion en el altavoz.
      */
     @Override
     public void detenerReproduccion() {
-        System.out.println("Deteniendo reproducción en el altavoz");
+        System.out.println("Deteniendo reproduccion en el altavoz");
     }
 }

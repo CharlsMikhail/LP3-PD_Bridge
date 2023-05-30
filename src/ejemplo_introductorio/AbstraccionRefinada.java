@@ -1,7 +1,7 @@
 package ejemplo_introductorio;
 
 /**
- * Esta es una subclase de la abstracción que utiliza la implementación A.
+ * Esta es una subclase de la abstraccion que utiliza la implementacion A.
  * @author Carlos Mijail Mamani Anccasi
  * @email cmamania@ulasalle.edu.pe
  * @version 1.0
@@ -11,7 +11,7 @@ public class AbstraccionRefinada extends Abstraccion {
     /**
      * Constructor de la clase AbstraccionRefinada.
      *
-     * @param implementacion La implementación a utilizar.
+     * @param implementacion La implementacion a utilizar.
      */
     public AbstraccionRefinada(Implementacion implementacion) {
         super(implementacion);
@@ -21,6 +21,6 @@ public class AbstraccionRefinada extends Abstraccion {
     public void operacion() {
         // Realizar operaciones adicionales
         implementacion.operacionImplementacion();
-        // Realizar más operaciones adicionales
+        // Realizar mas operaciones adicionales
     }
 }

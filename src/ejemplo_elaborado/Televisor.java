@@ -1,9 +1,9 @@
 package ejemplo_elaborado;
 
 /**
- * Esta es una implementación concreta de Dispositivo: Televisor.
+ * Esta es una implementacion concreta de Dispositivo: Televisor.
  * La clase Televisor representa un dispositivo de televisor que puede reproducir medios.
- * Implementa la interfaz Dispositivo y proporciona implementaciones para los métodos definidos en dicha interfaz.
+ * Implementa la interfaz Dispositivo y proporciona implementaciones para los metodos definidos en dicha interfaz.
  * 
  * @author Carlos Mijail Mamani Anccasi
  * @email cmamania@ulasalle.edu.pe
@@ -13,8 +13,8 @@ package ejemplo_elaborado;
 public class Televisor implements Dispositivo {
     
     /**
-     * Método utilizado para establecer una conexión con el televisor.
-     * La implementación de este método imprime un mensaje indicando que se está conectando el televisor.
+     * Metodo utilizado para establecer una conexion con el televisor.
+     * La implementacion de este metodo imprime un mensaje indicando que se esta conectando el televisor.
      */
     @Override
     public void conectar() {
@@ -22,8 +22,8 @@ public class Televisor implements Dispositivo {
     }
 
     /**
-     * Método utilizado para desconectar el televisor.
-     * La implementación de este método imprime un mensaje indicando que se está desconectando el televisor.
+     * Metodo utilizado para desconectar el televisor.
+     * La implementacion de este metodo imprime un mensaje indicando que se esta desconectando el televisor.
      */
     @Override
     public void desconectar() {
@@ -31,12 +31,12 @@ public class Televisor implements Dispositivo {
     }
 
     /**
-     * Método utilizado para reproducir un medio en el televisor.
-     * La implementación de este método imprime un mensaje indicando que se está reproduciendo el medio en el televisor,
-     * y luego invoca al método reproducir() del medio recibido como parámetro.
+     * Metodo utilizado para reproducir un medio en el televisor.
+     * La implementacion de este metodo imprime un mensaje indicando que se esta reproduciendo el medio en el televisor,
+     * y luego invoca al metodo reproducir() del medio recibido como parametro.
      * 
      * @param medio El medio a reproducir en el televisor.
-     *              Debe ser una instancia válida de la clase que implementa la interfaz `Medio`.
+     *              Debe ser una instancia valida de la clase que implementa la interfaz `Medio`.
      */
     @Override
     public void reproducirMedio(Medio medio) {
@@ -45,11 +45,11 @@ public class Televisor implements Dispositivo {
     }
 
     /**
-     * Método utilizado para detener la reproducción actual en el televisor.
-     * La implementación de este método imprime un mensaje indicando que se está deteniendo la reproducción en el televisor.
+     * Metodo utilizado para detener la reproduccion actual en el televisor.
+     * La implementacion de este metodo imprime un mensaje indicando que se esta deteniendo la reproduccion en el televisor.
      */
     @Override
     public void detenerReproduccion() {
-        System.out.println("Deteniendo reproducción en el televisor");
+        System.out.println("Deteniendo reproduccion en el televisor");
     }
 }

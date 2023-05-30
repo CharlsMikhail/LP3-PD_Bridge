@@ -1,11 +1,11 @@
 package ejemplo_elaborado;
 
 /**
- * Esta es una implementación concreta de Medio: Música.
- * La clase Musica representa un medio de música que puede ser reproducido.
- * Implementa la interfaz Medio y proporciona implementaciones para los métodos definidos en dicha interfaz.
+ * Esta es una implementacion concreta de Medio: Msica.
+ * La clase Musica representa un medio de msica que puede ser reproducido.
+ * Implementa la interfaz Medio y proporciona implementaciones para los metodos definidos en dicha interfaz.
  * 
- * Esta implementación específica de Medio se enfoca en la reproducción de música, y tiene propiedades como título y artista.
+ * Esta implementacion especifica de Medio se enfoca en la reproduccion de msica, y tiene propiedades como titulo y artista.
  * 
  * @author Carlos Mijail Mamani Anccasi
  * @email cmamania@ulasalle.edu.pe
@@ -18,10 +18,10 @@ public class Musica implements Medio {
 
     /**
      * Constructor de la clase Musica.
-     * Crea una instancia de Musica con el título y artista especificados.
+     * Crea una instancia de Musica con el titulo y artista especificados.
      * 
-     * @param titulo El título de la música.
-     * @param artista El artista de la música.
+     * @param titulo El titulo de la msica.
+     * @param artista El artista de la msica.
      */
     public Musica(String titulo, String artista) {
         this.titulo = titulo;
@@ -29,21 +29,21 @@ public class Musica implements Medio {
     }
 
     /**
-     * Método utilizado para reproducir la música.
-     * La implementación de este método imprime un mensaje indicando que se está reproduciendo la música,
-     * junto con el título y el artista.
+     * Metodo utilizado para reproducir la msica.
+     * La implementacion de este metodo imprime un mensaje indicando que se esta reproduciendo la msica,
+     * junto con el titulo y el artista.
      */
     @Override
     public void reproducir() {
-        System.out.println("Reproduciendo música: " + titulo + " - " + artista);
+        System.out.println("Reproduciendo msica: " + titulo + " - " + artista);
     }
 
     /**
-     * Método utilizado para detener la reproducción de la música.
-     * La implementación de este método imprime un mensaje indicando que se está deteniendo la música.
+     * Metodo utilizado para detener la reproduccion de la msica.
+     * La implementacion de este metodo imprime un mensaje indicando que se esta deteniendo la msica.
      */
     @Override
     public void detener() {
-        System.out.println("Deteniendo música");
+        System.out.println("Deteniendo msica");
     }
 }

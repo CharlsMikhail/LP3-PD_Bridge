@@ -1,11 +1,11 @@
 package ejemplo_elaborado;
 
 /**
- * Esta es otra implementación concreta de Medio: Película.
- * La clase Pelicula representa un medio de película que puede ser reproducido.
- * Implementa la interfaz Medio y proporciona implementaciones para los métodos definidos en dicha interfaz.
+ * Esta es otra implementacion concreta de Medio: Pelicula.
+ * La clase Pelicula representa un medio de pelicula que puede ser reproducido.
+ * Implementa la interfaz Medio y proporciona implementaciones para los metodos definidos en dicha interfaz.
  * 
- * Esta implementación específica de Medio se enfoca en la reproducción de películas, y tiene propiedades como título y director.
+ * Esta implementacion especifica de Medio se enfoca en la reproduccion de peliculas, y tiene propiedades como titulo y director.
  * 
  * @author Carlos Mijail Mamani Anccasi
  * @email cmamania@ulasalle.edu.pe
@@ -18,10 +18,10 @@ public class Pelicula implements Medio {
 
     /**
      * Constructor de la clase Pelicula.
-     * Crea una instancia de Pelicula con el título y director especificados.
+     * Crea una instancia de Pelicula con el titulo y director especificados.
      * 
-     * @param titulo El título de la película.
-     * @param director El director de la película.
+     * @param titulo El titulo de la pelicula.
+     * @param director El director de la pelicula.
      */
     public Pelicula(String titulo, String director) {
         this.titulo = titulo;
@@ -29,21 +29,21 @@ public class Pelicula implements Medio {
     }
 
     /**
-     * Método utilizado para reproducir la película.
-     * La implementación de este método imprime un mensaje indicando que se está reproduciendo la película,
-     * junto con el título y el director.
+     * Metodo utilizado para reproducir la pelicula.
+     * La implementacion de este metodo imprime un mensaje indicando que se esta reproduciendo la pelicula,
+     * junto con el titulo y el director.
      */
     @Override
     public void reproducir() {
-        System.out.println("Reproduciendo película: " + titulo + " - " + director);
+        System.out.println("Reproduciendo pelicula: " + titulo + " - " + director);
     }
 
     /**
-     * Método utilizado para detener la reproducción de la película.
-     * La implementación de este método imprime un mensaje indicando que se está deteniendo la película.
+     * Metodo utilizado para detener la reproduccion de la pelicula.
+     * La implementacion de este metodo imprime un mensaje indicando que se esta deteniendo la pelicula.
      */
     @Override
     public void detener() {
-        System.out.println("Deteniendo película");
+        System.out.println("Deteniendo pelicula");
     }
 }

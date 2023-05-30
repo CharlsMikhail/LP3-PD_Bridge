@@ -1,7 +1,7 @@
 package ejemplo_introductorio;
 
 /**
- * Esta clase representa una implementación concreta.
+ * Esta clase representa una implementacion concreta.
  * @author Carlos Mijail Mamani Anccasi
  * @email cmamania@ulasalle.edu.pe
  * @version 1.0
@@ -10,6 +10,6 @@ package ejemplo_introductorio;
 public class ImplementacionA implements Implementacion {
     @Override
     public void operacionImplementacion() {
-        // Lógica de la implementación A
+        // Logica de la implementacion A
     }
 }

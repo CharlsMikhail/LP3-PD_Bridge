@@ -1,7 +1,7 @@
 package ejemplo_introductorio;
 
 /**
- * Clase principal que demuestra el uso del patrón Bridge.
+ * Clase principal que demuestra el uso del patron Bridge.
  * @author Carlos Mijail Mamani Anccasi
  * @email cmamania@ulasalle.edu.pe
  * @version 1.0

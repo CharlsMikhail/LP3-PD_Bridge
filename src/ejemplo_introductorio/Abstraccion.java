@@ -1,7 +1,7 @@
 package ejemplo_introductorio;
 
 /**
- * Esta clase abstracta define la interfaz para las implementaciones de la ABSTRACCIÓN.
+ * Esta clase abstracta define la interfaz para las implementaciones de la ABSTRACCION.
  * @author Carlos Mijail Mamani Anccasi
  * @email cmamania@ulasalle.edu.pe
  * @version 1.0
@@ -13,14 +13,14 @@ public abstract class Abstraccion {
     /**
      * Constructor de la clase Abstraccion.
      *
-     * @param implementacion La implementación a utilizar.
+     * @param implementacion La implementacion a utilizar.
      */
     public Abstraccion(Implementacion implementacion) {
         this.implementacion = implementacion;
     }
 
     /**
-     * Método abstracto que debe ser implementado por las subclases para realizar operaciones.
+     * Metodo abstracto que debe ser implementado por las subclases para realizar operaciones.
      */
     public abstract void operacion();
 }

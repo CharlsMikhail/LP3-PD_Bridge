@@ -12,14 +12,14 @@ package ejemplo_elaborado;
 public interface Medio {
     
     /**
-     * Método utilizado para reproducir el medio.
-     * La implementación de este método debe iniciar la reproducción del medio.
+     * Metodo utilizado para reproducir el medio.
+     * La implementacion de este metodo debe iniciar la reproduccion del medio.
      */
     void reproducir();
     
     /**
-     * Método utilizado para detener la reproducción del medio.
-     * La implementación de este método debe detener la reproducción actual del medio y ponerlo en un estado de detención.
+     * Metodo utilizado para detener la reproduccion del medio.
+     * La implementacion de este metodo debe detener la reproduccion actual del medio y ponerlo en un estado de detencion.
      */
     void detener();
 }

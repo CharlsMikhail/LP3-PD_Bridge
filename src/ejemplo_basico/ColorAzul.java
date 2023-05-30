@@ -1,7 +1,7 @@
 package ejemplo_basico;
 
 /**
- * Esta es otra implementación concreta de Color.
+ * Esta es otra implementacion concreta de Color.
  * @author Carlos Mijail Mamani Anccasi
  * @email cmamania@ulasalle.edu.pe
  * @version 2.0
